@@ -12,3 +12,5 @@ Welcome to E-commerce Website !!!!
 8. Editor used is VS Code
 9. Most of the HTML and CSS elements are included for webpage
 10. A small end-to-end project!
+
+More to come up ton extend the project!!!
