@@ -1,4 +1,4 @@
-<!--  
+ 
 
 Welcome to E-commerce Website !!!!
 
@@ -12,5 +12,3 @@ To store the values into the database python scripting has been used
 Editor used is VS Code
 Most of the HTML and CSS elements are included for webpage
 A small end-to-end project!
-
--->
