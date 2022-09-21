@@ -1,0 +1,250 @@
+<html>
+
+<head style="font-family:verdana">
+    <style>
+        body {
+            background-color: C0C0C0;
+            background-image: url('bg-images/crafts.jpeg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            color: black;
+            font-family: Calibri;
+            font-size: 150%;
+        }
+
+        p {
+            color: black;
+            font-family: Calibri;
+
+        }
+
+        div.list {
+        border: 1px solid black;
+        padding: 15px 25px 30px;
+        background-color: lightblue;
+        margin: 0px 20px 50px 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid rgb(165, 7, 7);
+            background-color: antiquewhite;
+        }
+
+        p.a {
+        font: 40px Arial, sans-serif;
+        color: rgb(25, 5, 121);
+
+        }
+
+        p.b {
+        font: italic small-caps bold 30px/50px Georgia, serif;
+        color: rgb(52, 4, 143);
+        }
+
+        p.c {
+            border-style: dotted;
+            margin-top: 50px;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgb(163, 8, 143);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }   
+
+        img.smiley-img {
+            border-radius: 50%;
+        }
+
+        img.giphy-img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+        img.flower-img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+    </style>
+
+    <title>"Crafts Exhibition"</title>
+
+</head>
+
+<body>
+
+    <header><i><b> &#127800; &#127800; Welcome to the Cratfs Exhibition!!! &#127800; &#127800;</b></i></header>
+
+
+    <h1><b>Craftness is Happiness!!!</b>
+        <p>&#128512;</p>
+        <h1>
+
+            <p class="a"><em>What does <q>CRAFT</q>mean to you??<br>
+                    We asked our designers & makers...the responses are beautiful!!!</em></p>
+
+            <p class="b"><em>Enjoy the Craft stalls and take home gifts!!!</em></p>
+
+            <img class="smiley-img" src="bg-images/smiley.gif" alt="Thank You Msg"
+                style="vertical-align:top;margin:10px 0px" width="200" height="100">
+
+            <table style="float:right">
+                <tr>
+                    <th>Number of Tickets</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>$40 {20% discount}</td>
+                </tr>
+            </table>
+
+            <form>
+                <br>
+                <p class="c"><b><i><u>Enroll to participate in the exhibition</u></i></b></p>
+                <p><b>Enter your name</b></p>
+                <input type="text" name="textfield" value=""><br><br>
+                <p><b>Ticket purchased 'Yes/No'</b></p>
+                <input type="text" name="textfield" value=""><br><br>
+                <p><b>If not, purchase tickets here:</b></p>
+                <a href="/Users/roja/Documents/Git_Projects/e-commerce/tickets.html" target="_blank">Purchase
+                    tickets</a><br><br>
+                <p><b>Which art are you making today?</b></p>
+                <input type="text" name="textfield" value=""><br><br>
+                <p><b>Enter phone number for alerts and other information</b></p>
+                <input type="text" name="textfield" value=""><br><br>
+
+
+                <p><b>Please select the gender:</b></p>
+                <input type="radio" name="gender" value="1">Male</input>
+                <br><input type="radio" name="gender" value="2">Female</input>
+
+                <br><br>
+                <p><b>Which place your from???</b></p>
+                <select name="Which place your from:">
+                    <option>Dallas, Texas</option>
+                    <option>Outstate</option>
+                </select>
+
+                <br><br>
+
+                <p><b><u><div class="list">List of arts:</div></u></b></p>
+                <ul>
+                    <li><a href="/Users/roja/Documents/Git_Projects/e-commerce/clay-art-page.html" target="_blank">Clay
+                            Art</a></li>
+                    <li><a href="/Users/roja/Documents/Git_Projects/e-commerce/origami-art.html" target="_blank">Origami
+                            Art</a></li>
+                    <li><a href="/Users/roja/Documents/Git_Projects/e-commerce/paper-craft-art.html"
+                            target="_blank">Paper Craft Art</a></li>
+
+                </ul>
+
+                <br>
+
+                <p><b>Please choose materials required from the below list:</b></p>
+                <p><b><mark>One clay art must</mark></b></p>
+                <br><input type="checkbox" name="art" value="1" checked>Clay<input>
+                <br><input type="checkbox" name="art" value="2">Origami papers</input>
+                <br><input type="checkbox" name="art" value="3">Craft papers</input>
+                <br><input type="checkbox" name="art" value="4">Drawing Pencils</input>
+                <br><input type="checkbox" name="art" value="5">Drawing sheets</input>
+                <br><input type="checkbox" name="art" value="6">Crayons</input>
+                <br><input type="checkbox" name="art" value="7">Glue</input>
+                <br><input type="checkbox" name="art" value="8">Water</input>
+                <br><input type="checkbox" name="art" value="9">Mixing trays</input>
+                <br><input type="checkbox" name="art" value="10">Scirrors</input>
+                <br><input type="checkbox" name="art" value="11">Threads</input>
+                <br><input type="checkbox" name="art" value="12">Decorative stuffs</input>
+
+                <br>
+                <br>
+
+
+                <p><b>!-- Write your comments here --</b></p><br>
+                <textarea name="textarea" cols="30" rows="8">Please enter your comments</textarea>
+                <br><br><br>
+                <input type="submit" name="Submit" value="Submit">
+                <br><br>
+                <input type="reset" name="Submit2" value="Reset"><br><br>
+
+            </form>
+
+            <div class="row">
+                
+                <!-- image from the internet -->
+                <div class="column">
+                    <img class="flower-img" src="https://images.unsplash.com/photo-1600703136783-bdb5ea365239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    alt="Flower" style="vertical-align:middle;margin:10px 100px" width="200" height="100">
+                </div>
+
+                <div class="column">
+                    <img class="giphy-img" src="bg-images/giphy.gif" alt="Thank You Msg"
+                    style="vertical-align:middle;margin:20px 200px" width="200" height="100">
+                </div>
+
+                <div class="column">
+                    <img class="flower-img" src="bg-images/flowery.jpeg"
+                    alt="Flower" style="vertical-align:middle;margin:30px 300px" width="200" height="100">
+                </div>
+
+
+            </div>
+
+            
+            <br><br>
+            <style>
+                /* Style the footer */
+                footer {
+                    background-color: rgb(163, 8, 143);
+                    padding: 10px;
+                    text-align: center;
+                    color: white;
+                }
+            </style>
+
+            <footer>
+                <p>
+                <p>&#127800; &#127800; &#127800;</p> &#127800; &#127800; Happy Crafting!!! &#127800; &#127800; <p>
+                    &#127800; &#127800; &#127800;</p>
+                </p>
+            </footer>
+
+</body>
+
+</html>
